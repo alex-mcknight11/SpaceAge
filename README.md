@@ -1,31 +1,40 @@
-# (Application Name)
+# Space Age Calculator
 
-#### (Brief Description of Application)
+#### A Program Designed to Calculate Your Age on Various Planets
 
-#### By (Your Name Here)
+#### By Alex McKnight
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+- _HTML_
+- _JavaScript_
+- _jQuery_
+- _Webpack_
+- _Jest_
+- _BootStrap_
+- _ESLint_
+- _Popper.js_
+- _Babel_
 
 ## Description
 
+A program used to calculate the user's age on various planets in the solar system based on their years.
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+- _Install Google Chrome Browser_
+- _Download GitHub file_
+- _https://github.com/alex-mcknight11/SpaceAge_
+- _Open folder labeled "SpaceAge"_
+- _Website will open in browser_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+- _No Known Issues_
 
 ## License
+
+MIT
+Copyright (c) 2/04/22 Alex McKnight
 
 ## Contact Information
