@@ -1,3 +1,6 @@
+import $ from 'jquery';
+import 'bootstrap';
+
 export class AgeCalculator {
 	constructor(age, planet) {
 		(this.age = age), (this.planet = planet);
