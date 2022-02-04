@@ -6,18 +6,22 @@ beforeEach(function () {
 	let userInput = [25];
 });
 
-describe('Space', () => {
-	let Space;
+describe('AgeCalculator', () => {
+	const space = new AgeCalculator(25);
 	test('should calculate age based on Jupiter equation', () => {
-		const ageJupiter = Math(Space.ageInput / 11.86);
+		const ageJupiter = space.ageJupiter();
+		expect(ageJupiter).toBeCloseTo(2.1079, 3);
 	});
 	test('should calculate age based on Mars equation', () => {
-		const ageMars = Math(Space.ageInput / 11.88);
+		const ageMars = space.ageMars();
+		expect(ageMars).toBeCloseTo(13.2978, 3);
 	});
 	test('should calculate age based on Venus equation', () => {
-		const ageVenus = Math(Space.ageInput / 0.62);
+		const ageVenus = space.ageVenus();
+		expect(ageVenus).toBeCloseTo(40.3225, 3);
 	});
 	test('should calculate age based on Mercury equation', () => {
-		const ageMercury = Math(Space.ageInput / 0.24);
+		const ageMercury = space.ageMercury();
+		expect(ageMercury).toBeCloseTo(104.1666, 3);
 	});
 });
