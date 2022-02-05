@@ -24,4 +24,9 @@ describe('AgeCalculator', () => {
 		const ageMercury = space.ageMercury();
 		expect(ageMercury).toBeCloseTo(104.1666, 3);
 	});
+	test(
+		'should calculate how many years past median age they would live on a planet', () => {
+      const ageDifference = (this.age < 80);
+      expect(ageDifference).toEqual(this.age < 80);
+	);
 });
